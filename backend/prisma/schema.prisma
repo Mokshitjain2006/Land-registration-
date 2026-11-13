@@ -1,0 +1,50 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model PropertyMetadata {
+  id                       String   @id @default(uuid())
+  propertyId               Int      @unique
+  description              String?
+  documentStorageReference String?
+  originalFileName         String?
+  fileSizeBytes            Int?
+  documentHash             String?
+  createdAt                DateTime @default(now())
+}
+
+model TransactionCache {
+  id              String   @id @default(uuid())
+  transactionHash String
+  propertyId      Int
+  eventType       String
+  blockNumber     Int
+  previousOwner   String?
+  newOwner        String?
+  timestamp       Int?
+  createdAt       DateTime @default(now())
+
+  @@unique([transactionHash, eventType, propertyId])
+}
+
+model ApplicationActivity {
+  id            String   @id @default(uuid())
+  walletAddress String
+  action        String
+  details       String?
+  timestamp     DateTime @default(now())
+}
+
+model ContactInquiry {
+  id        String   @id @default(uuid())
+  name      String
+  email     String
+  subject   String
+  message   String
+  createdAt DateTime @default(now())
+}

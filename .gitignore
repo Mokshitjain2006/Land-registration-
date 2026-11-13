@@ -1,0 +1,10 @@
+node_modules/
+dist/
+cache/
+artifacts/
+.playwright-cli/
+backend/prisma/*.db
+backend/prisma/*.db-journal
+backend/storage/uploads/*
+!backend/storage/uploads/.gitkeep
+.env

@@ -1,0 +1,6 @@
+LANDCHAIN ACADEMIC SAMPLE TITLE DEED
+Property ID: 1001
+Survey Number: SUR-KA-2026-1001
+Location: Plot 14, Greenview Civic Enclave, Sector 8, Indiranagar, Bengaluru Urban, Karnataka
+Area: 2400 sq.ft.
+Note: Academic prototype test deed for SHA-256 verification.

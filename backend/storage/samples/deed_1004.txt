@@ -1,0 +1,6 @@
+LANDCHAIN ACADEMIC SAMPLE TITLE DEED
+Property ID: 1004
+Survey Number: SUR-TS-2026-1004
+Location: Block C-19, Heritage Institutional Precinct, Gachibowli, Rangareddy, Telangana
+Area: 3150 sq.ft.
+Note: Academic prototype test deed for SHA-256 verification.

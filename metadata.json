@@ -1,0 +1,6 @@
+{
+  "name": "LandChain — Blockchain Land Registry",
+  "description": "Academic prototype for transparent, tamper-resistant digital land registration, SHA-256 document verification, QR code validation, and multi-step ownership transfers on a local Ethereum blockchain.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,6 @@
+LANDCHAIN ACADEMIC SAMPLE TITLE DEED
+Property ID: 1003
+Survey Number: SUR-KL-2026-1003
+Location: Survey Lot 7, Lakeview Agricultural Terrace, Kakkanad, Ernakulam, Kerala
+Area: 6200 sq.ft.
+Note: Academic prototype test deed for SHA-2026 verification.

@@ -1,0 +1,6 @@
+LANDCHAIN ACADEMIC SAMPLE TITLE DEED
+Property ID: 1002
+Survey Number: SUR-MH-2026-1002
+Location: Parcel 42B, North Riverfront Commercial Zone, Baner, Pune, Maharashtra
+Area: 4850 sq.ft.
+Note: Academic prototype test deed for SHA-256 verification.
